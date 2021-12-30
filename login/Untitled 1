@@ -1,0 +1,112 @@
+ public static void create(String id, String pw, String nme, String bday, String phNo, String gen) {
+//		   
+//		   String sql = " INSERT INTO Users(ID, Password, Name, Birthday, PhoneNo, Gender) "
+//		   		+ "VALUES(" + id + "," + pw + "," + nme + "," + bday + "," + phNo + "," + gen +"); ";
+//		   //System.out.println(sql);
+//		   
+//		   try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
+//				   Statement stmt = conn.createStatement()) {
+//			   			connectionDB();
+//					   stmt.execute(sql);
+//					   
+//				   } catch (SQLException e) {
+//					   
+//					   System.out.println(e.getMessage());
+//					   
+//				   }
+//		   
+//    }
+//    
+//    public static void read(DTO obj) {
+//		   
+//		   String sql = " SELECET * FROM users; ";
+//		   System.out.println(sql);
+//		   
+//		   try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
+//				   Statement stmt = conn.createStatement()) {
+//			   
+//					   stmt.execute(sql);
+//					   
+//				   } catch (SQLException e) {
+//					   
+//					   System.out.println(e.getMessage());
+//					   
+//				   }
+//		   
+//    }
+//    
+//    public static void update(DTO obj) {
+//		   
+//		   String sql = " UPDATE users "
+//		   		+ "SET column1 = value1, column2 = value2, ... "
+//		   		+ "WHERE condition; ";
+//		   
+//		   System.out.println(sql);
+//		   
+//		   try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
+//				   Statement stmt = conn.createStatement()) {
+//			   
+//					   stmt.execute(sql);
+//					   
+//				   } catch (SQLException e) {
+//					   
+//					   System.out.println(e.getMessage());
+//					   
+//				   }
+//		   
+//    }
+//    
+//    public static void delete(DTO obj) {
+//		   
+//		   String sql = " INSERT INTO users VALUES(" + obj.getId() + "," + obj.getPw() + "," 
+//				   + obj.getNme() + "," + obj.getBday() + "," + obj.getPhNo() + "," + obj.getGen() +"); ";
+//		   System.out.println(sql);
+//		   
+//		   try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
+//				   Statement stmt = conn.createStatement()) {
+//			   
+//					   stmt.execute(sql);
+//					   
+//				   } catch (SQLException e) {
+//					   
+//					   System.out.println(e.getMessage());
+//					   
+//				   }
+//		   
+//    }
+//    
+//    
+    
+    
+//	    
+//	   public static void createNewTable() {
+//		   
+//		   String sql = "CREATE TABLE Users (ID varchar(255), Password varchar(255)), Name varchar(255), Birthday varchar(255), PhoneNumber varchar(255), Gender varchar(255);";
+//		   
+//		   
+//		   
+//		   try (Connection conn = DriverManager.getConnection(url, usrname, pw);
+//				   Statement stmt = conn.createStatement()) {
+//			   stmt.execute(sql);
+//			   
+//		   } catch (SQLException e) {
+//			   System.out.println(e.getMessage());
+//		   }
+//	   }
+	   
+	   
+	   
+//	   public void deleteRecord(String usrName, String pwd) {
+//		   String sql = "INSERT INTO Users Values (" + usrName + "," + pwd + ");";
+//		   
+//		   System.out.println(sql);
+//		  
+//		   
+//		   try (Connection conn = DriverManager.getConnection(url, usrname, pw);
+//				   Statement stmt = conn.createStatement()) {
+//					   stmt.execute(sql);
+//				   } catch (SQLException e) {
+//					   System.out.println(e.getMessage());
+//				   }
+//	   }
+	   
